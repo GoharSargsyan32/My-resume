@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0f141e;
+    background: hsl(0, 3%, 94%);
+}
+
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 0;
+    padding: 10;
+
+}
+
+.info-text h1,
+.info-text h3 {
+    margin-bottom: 10px;
+    font-size: large;
+    font-style: inherit;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.card {
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+
+.bg-green {
+    background-color: #cae8cb;
+}
+
+.bg-red {
+    background-color: #eec4c5;
+}
+
+.bg-yellow {
+    background-color: #dde8b9;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding: 10px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #d7f575;
+}
+
+a:visited {
+    color: rgb(72, 159, 234);
+}
+
+.btn {
+    background: #111;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.table {
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+    margin-top: 0;
+}
+
+table td:nth-child(1) {
+    font-weight: bold;
+
+}
+
+.list {
+    margin-left: 20px;
+    padding: 0;
+    list-style-type: style;
+}
+
+.list li {
+    padding-bottom: 5px;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.form-row .form-group {
+
+    margin-right: 20px;
+    width: 50%;
+}
+
+
+.form h1 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #111;
+    padding: 15px 0 10px;
+    font-family: inherit;
+}
+
+@media (max-width:550px) {
+    .info {
+        display: block;
+        padding: 0;
+    }
+
+}
+
+@media (max-width:550px) {
+    .form-row {
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+
+    }
+}
